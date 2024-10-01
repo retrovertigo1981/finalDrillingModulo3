@@ -73,7 +73,6 @@ function gestionarCompra() {
     const productoSelecionado = seleccionarProducto(productosDisponibles);
     cantidadProducto = pedirCantidad();
     productoSelecionado.cantidad = cantidadProducto;
-    console.log(productoSelecionado);
     carrito.agregarProductos(productoSelecionado);
 
     continuar =
